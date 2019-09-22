@@ -193,6 +193,7 @@ h1, h2, h3{
     box-sizing: border-box;
     width: 1000px;
     max-width: 100%;
+    color: #101820FF;
 }
 .project-text h2{
     padding-bottom: 50px;
