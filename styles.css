@@ -1,0 +1,348 @@
+html,
+div,
+span,
+object,
+iframe,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+del,
+em,
+img,
+small,
+strong,
+ol,
+ul,
+li,
+label,
+table {
+ border:0;
+ vertical-align:baseline;
+ margin:0;
+ padding:0
+}
+
+html {
+ scroll-behavior:smooth;
+ height:100%
+}
+.main-style {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.content-wrapper {
+    width: 1000px;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 40px auto 0;
+    padding: 40;
+}
+.heidu {
+    font-size: 100px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 1%;
+    padding: 0;
+    padding-top: 15px;
+    z-index: 10;
+    position: relative;
+    line-height: 0.5em;
+    flex: 1 1 100%;
+    border: 0;
+    color: #101820FF;
+}
+
+.intro {
+    background-color: #7a9663;
+    color: #fff;
+    height: 300px;
+    padding-top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding-right: 55%;
+    padding-left: 40px;
+}
+.intro p {
+    padding-bottom: 55px;
+    font-size: 20px;
+}
+.meg {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    width:50%;
+    height: 100%;
+}
+.project-body {
+    background-color: grey;
+    color: #fff;
+    padding-top: 65px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding-right: 55%;
+    padding-left: 40px;
+    margin-bottom: 25px;
+    height: 250px;
+    max-height: 100%;
+}
+.project-body h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.prosjketer-heading {
+    line-height: 1.1rem;
+    position: relative;
+    z-index: 4;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.headshot {
+    background-size:cover;
+    background-position:center 38%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0
+}
+.case-item-bg {
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0
+}
+.project-photo {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    width:50%;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center bottom;
+}
+.cover-photo {
+    top:0;
+    right:0;
+    bottom:0;
+    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 25px;
+    position: relative;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: contain;
+}
+.hundeskatten-project {
+    color: #495867;
+}
+.list {
+    box-sizing: border-box;
+    width: 1000px;
+    max-width: 100%;
+    float: right;
+    padding-bottom: 25px;
+}
+.list ul{
+    padding-left: 20px;
+}
+.list h2 {
+    padding-bottom: 15px;
+}
+
+/*Inne på prosjekt sidene*/
+.projectpage-coverPhoto{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center 38%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0
+}
+.project-page {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-text {
+    box-sizing: border-box;
+    width: 1000px;
+    max-width: 100%;
+}
+.project-text h2{
+    padding-bottom: 50px;
+}
+.project-text p{
+    padding-bottom: 50px;
+}
+.brodtext{
+    font-size: 20px;
+}
+.lotus {
+    color: black;
+}
+.main-content {
+    margin-bottom: 25px;
+}
+.project-page h1{
+    font-size: 60px;
+}
+.hundeskattenPhoto {
+    background-size: contain;
+}
+.sunLightPhoto {
+    background-size: contain;
+}
+.aowPhoto{
+    background-size: contain;
+}
+.aowProsess{
+    box-sizing: border-box;
+    width: 1000px;
+    max-width: 100%;
+}
+/*bilde galleri */
+
+.gallery {
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    box-sizing: border-box;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.h2 {
+    font-weight: bold;
+}
+.links {
+    padding: 5px;
+    padding-bottom: 15px; 
+}
+.social-icons {
+    fill: #fff;
+}
+.a {
+    text-decoration: none;
+}
+.linked-in-icon {
+    transition: all .5s;
+}
+svg:hover .linked-in-icon {
+    fill: #0077B5;
+    scale: 0.8;
+}
+@media all and (max-width: 1000px) {
+    .content-wrapper {
+        padding-right:30px;
+        padding-left:30px
+    }
+    .list{
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .list p{
+        padding:10px;
+    }
+    .cover-photo {
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .project-body{
+        padding-top: 14px;
+    }
+    .list{
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .intro{
+        padding-top: 50px;
+        height: auto;
+        min-height: 300px;
+        padding: 0;
+    }
+    .intro p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .links {
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .meg {
+        display: block;
+        position: relative;
+        height: 300px;
+        width: 100%;
+    }
+    .heidu{
+        font-size: 70px;
+    }
+    .project-body {
+        height: auto;
+        min-height: 300px;
+        padding-left: 40px;
+        padding-right: 40px; 
+    }
+    .project-photo {
+        display: block;
+        position: relative;
+        height: 200px;
+        width: 100%;
+    }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
