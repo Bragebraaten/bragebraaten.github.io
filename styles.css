@@ -167,6 +167,7 @@ h1, h2, h3{
 .list ul{
     padding-left: 20px;
     font-size: 20px;
+    line-height: 25px;
 }
 .list h2 {
     padding-bottom: 15px;
@@ -201,6 +202,7 @@ h1, h2, h3{
 }
 .brodtext{
     font-size: 20px;
+    line-height: 23px;
 }
 .lotus {
     color: black;
@@ -218,6 +220,9 @@ h1, h2, h3{
     background-size: contain;
 }
 .aowPhoto{
+    background-size: contain;
+}
+.kisPhoto {
     background-size: contain;
 }
 .aowProsess{
