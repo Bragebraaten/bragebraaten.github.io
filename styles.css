@@ -166,6 +166,7 @@ h1, h2, h3{
 }
 .list ul{
     padding-left: 20px;
+    font-size: 20px;
 }
 .list h2 {
     padding-bottom: 15px;
