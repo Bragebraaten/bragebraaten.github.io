@@ -1,2 +1,0 @@
-# bragebraaten.github.io
-Portfolio
