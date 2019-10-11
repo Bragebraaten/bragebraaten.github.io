@@ -172,7 +172,9 @@ h1, h2, h3{
 .list h2 {
     padding-bottom: 15px;
 }
-
+.project-body:hover h2{
+    text-decoration: underline;
+}
 /*Inne på prosjekt sidene*/
 .projectpage-coverPhoto{
     background-size: cover;
